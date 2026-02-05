@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7ee4aa96a65994e49bddae2e4ec0a85c
+guid: 5d7c1369342cd1140b18c41d6a2c6fdf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6695950386315148514
-    second: BG_0
+      213: 824079398984758980
+    second: small_wood_spike_01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,45 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_0
+      name: small_wood_spike_01_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 483
-        width: 1280
-        height: 477
+        x: 4
+        y: 1
+        width: 63
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e13cb0ea9943313a0800000000000000
-      internalID: -6695950386315148514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BG_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 6
-        width: 1280
-        height: 477
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 716ad76f9215dd043820d2f7a642608c
-      internalID: 1574539695
+      spriteID: 4c63433e8d7bf6b00800000000000000
+      internalID: 824079398984758980
       vertices: []
       indices: 
       edges: []
@@ -160,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a94235e6778363844ba8ac8e2dbd8c2f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -168,14 +146,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1280.0,"y":477.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
-      - key: SpriteEditor.SliceOnImport
-        value: False
+      entries: []
     nameFileIdTable:
-      BG_0: -6695950386315148514
-      BG_1: 1574539695
+      small_wood_spike_01_0: 824079398984758980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
