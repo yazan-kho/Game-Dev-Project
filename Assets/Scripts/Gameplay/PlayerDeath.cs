@@ -19,11 +19,10 @@ namespace Platformer.Gameplay
             var player = model.player;
             if (player.health.IsAlive)
             {
-                Debug.Log("Player has died.");
+                // health down
                 player.health.Decrement();
                 //model.virtualCamera.Follow = null;
                 //model.virtualCamera.LookAt = null;
-                //player.gravityModifier = 0;
                 player.controlEnabled = false;
 
                 if (player.audioSource && player.ouchAudio)
@@ -34,7 +33,7 @@ namespace Platformer.Gameplay
             }
             else
             {
-                Debug.Log("Player has died. No lives remaining.");
+                // Player dead game over
                 player.health.ShowPlayerDeadMessage(true);
                 Simulation.Schedule<PlayerSpawn>(2);
             }

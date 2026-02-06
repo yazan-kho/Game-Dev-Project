@@ -40,9 +40,7 @@ namespace Platformer.Mechanics
         /// </summary>
         public void Decrement()
         {
-            //if (Time.time < nextDamageTime) return;
-            //nextDamageTime = Time.time + invincibleTime;
-
+            
             currentHP = Mathf.Clamp(currentHP - 1, 0, maxHP);
             UpdateLivesUI();
 

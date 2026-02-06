@@ -16,7 +16,6 @@ namespace Platformer.Gameplay
 
         public override void Execute()
         {
-           // GameController.Instance.model.player.health.Decrement();
             Simulation.Schedule<PlayerDeath>(0);
         }
     }
