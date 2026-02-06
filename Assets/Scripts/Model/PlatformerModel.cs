@@ -27,6 +27,12 @@ namespace Platformer.Model
         /// </summary>
         public Transform spawnPoint;
 
+        [Header("Checkpoints (0 = start)")]
+        public Transform[] checkpoints;
+
+        [HideInInspector]
+        public int currentCheckpointIndex = 0;
+
         /// <summary>
         /// A global jump modifier applied to all initial jump velocities.
         /// </summary>
